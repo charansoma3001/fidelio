@@ -95,7 +95,7 @@ int main()
 	char s[25], F[10];
 	printf("Enter the number of empty frames : ");
 	scanf("%d", &f);
-	printf("Enter the lenght of the string : ");
+	printf("Enter the length of the string : ");
 	scanf("%d", &l);
 	printf("Enter the string : ");
 	scanf("%s", s);
