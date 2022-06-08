@@ -100,7 +100,7 @@ int main()
 	printf("Enter the string : ");
 	scanf("%s", s);
 	for(k=0; k<f; k++)
-		F[k]=-1;
+		F[k]='-';
 	do
 	{
 		printf("\n---MENU---\n1.FIFO \n2.LRU \n3.exit ");
@@ -109,12 +109,12 @@ int main()
 		switch(ch)
 		{
 			case 1: for(k=0; k<f; k++)
-					F[k]=-1;
+					F[k]='-';
 				FIFO(s, F, l, f);
 				break;
 						
 			case 2: for(k=0; k<f; k++)
-					F[k]=-1;
+					F[k]='-';
 				LRU(s, F, l, f);
 				break;
 			case 3: exit(0);
