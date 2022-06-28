@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+
 int len,top=-1,i,j;
 char str[20],stk[20];
 void errfcn();
